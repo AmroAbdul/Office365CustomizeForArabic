@@ -1,0 +1,24 @@
+<Configuration>
+  <Add OfficeClientEdition="64" Channel="Current">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="ar-SA" />
+ 
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="InfoPath" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="SharePointDesigner" />
+      <ExcludeApp ID="Skype" />
+      <ExcludeApp ID="Skypeforbusiness" />
+      <ExcludeApp ID="Groove" />
+       
+    </Product>
+
+    <Product ID="VisioProRetail">
+      <Language ID="en-us" />
+    </Product> 
+  </Add>
+  <Display Level="Full" AcceptEULA="TRUE" />
+</Configuration>
